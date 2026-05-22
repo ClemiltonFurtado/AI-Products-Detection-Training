@@ -1,0 +1,20 @@
+MODEL_PATH = "../../runs/detect/yolov8n"
+INPUT_FOLDER = "../../data/Dataset"
+LABEL_DIR = "../../runs/detect/predict/labels"
+OUTPUT_DIR_FILTER_LABEL = "../../runs/detect/predict/labels_filtrados"
+DISTANCE_THRESHOLD = 0.01 
+LABELS_FILTERED = "../../runs/detect/predict/labels_filtrados"
+FINAL_DATASET = "../../data/Dataset/new_dataset"
+MODEL_TO_DETEC_OBJECT = "../../runs/detect/train/weights/best.pt"
+YAML_FILE = "../../data/Dataset/new_dataset/data.yaml"
+FINAL_MODEL = "../../runs/detect/train-2/weights/best.pt"
+DATASET_TEST = ""
+MAX_SCREEN_W = 1280
+MAX_SCREEN_H = 720
+COLOR = [(0, 255, 0), (0, 165, 255), (255, 0, 0), (0, 0, 255), (255, 0, 255)]
+DRAWING = False
+IX,IY= -1, -1
+MOUSE_X,MOUSE_Y = -1, -1
+RIGH_CLICK_DETECT = False
+POINT_RIGHT_CLICK = (-1, -1)
+
