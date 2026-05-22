@@ -1,1 +1,2 @@
 # AI-Products-Detection-Training
+This repository contains the complete machine learning pipeline for data preparation, annotation correction, and custom YOLO model training for the Camera Inventory System.
